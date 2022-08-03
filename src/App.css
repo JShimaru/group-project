@@ -10,6 +10,11 @@
   color: transparent;
 }
 
+.homepage-img {
+  width: 95%;
+  max-width: 480px;
+}
+
 header {
   background-color: #252525;
   padding: 2em 0;
@@ -34,6 +39,7 @@ button:hover {
 .famous-quotes-wrapper {
   max-width: 600px;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 button {
