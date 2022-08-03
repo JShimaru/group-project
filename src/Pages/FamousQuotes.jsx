@@ -4,10 +4,9 @@ import {useEffect, useState} from 'react';
 export default function FamousQuotes() {
   const [famousQuote, setFamousQuote] = useState();  //declare state variable that will hold the API data
 
-  //function to call the api method to get a random programming quote
+  //function to call the api method to get a random famous quote
   const getData = async () => {
     const quote = await randomGardenQuote();  //wait for the method to fully complete executing; save result to a variable
-    console.log(quote)  //for testing, to visualize data
     setFamousQuote(quote);  //set the state variable to the object received from the API
   }
 

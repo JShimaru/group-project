@@ -2,8 +2,7 @@ import axios from 'axios';
 
 async function randomGardenQuote() {
   try {
-    const info = await axios.get('https://quote-garden.herokuapp.com/api/v3/quotes/random')
-    console.log(info)
+    const info = await axios.get('https://quote-garden.herokuapp.com/api/v3/quotes/random');
     return {quote: info.data.data[0].quoteText, author: info.data.data[0].quoteAuthor, genre: info.data.data[0].quoteGenre};
   }
   catch(e) {
