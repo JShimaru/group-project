@@ -19,7 +19,8 @@ export default function ProgrammingQuotes() {
     <div className='programming-quotes-wrapper'>
       <div>
         <h2>Programming-related quotes!</h2>
-        <p><q>{progQuote && progQuote.quote}</q> &mdash; {progQuote && progQuote.author}</p>
+        {progQuote && (<p><q>{progQuote.quote}</q> &mdash; {progQuote.author}</p>)}
+        
         <button onClick={getData}>Get new quote</button>
       </div>
     </div>

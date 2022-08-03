@@ -19,7 +19,7 @@ export default function FamousQuotes() {
     <div className='famous-quotes-wrapper'>
       <div>
         <h2>Famous quotes!</h2>
-        <p><q>{famousQuote && famousQuote.quote}</q> &mdash; {famousQuote && famousQuote.author}</p>
+        {famousQuote && (<p><q>{famousQuote.quote}</q> &mdash; {famousQuote.author}</p>)}
         <button onClick={getData}>More!</button>
       </div>
     </div>
