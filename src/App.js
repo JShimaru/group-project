@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <header>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/programming'>Programming</NavLink>
-        <NavLink to='/famous'>Famous</NavLink>
+        <NavLink to='/' className='nav-link'>Home</NavLink>
+        <NavLink to='/programming' className='nav-link'>Programming</NavLink>
+        <NavLink to='/famous' className='nav-link'>Famous</NavLink>
       </header>
 
       <Routes>
