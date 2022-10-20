@@ -5,7 +5,8 @@ function Homepage(){
 
     return(
         <div>
-            <h1>This is the Homepage!</h1>
+            <h1 className='home-title'>Quotes! Quotes Everywhere!</h1>
+            <img className='homepage-img' src='https://media.giphy.com/media/rVVFWyTINqG7C/giphy.gif' alt='' />
         </div>
     )
 }

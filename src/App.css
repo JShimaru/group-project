@@ -2,3 +2,52 @@
   text-align: center;
 }
 
+.home-title {
+  background-color: transparent;
+  background-image: linear-gradient(45deg, hsla(0, 0%, 15%, 1) 0%, hsla(180, 74%, 57%, 1) 100%);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
+}
+
+.homepage-img {
+  width: 95%;
+  max-width: 480px;
+}
+
+header {
+  background-color: #252525;
+  padding: 2em 0;
+}
+
+.nav-link {
+  color: #41e2e2;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+button:hover {
+  background-color: #41e2e2;
+  color: #fff;
+}
+
+.nav-link + .nav-link {
+  margin-left: 1em;
+}
+
+.programming-quotes-wrapper,
+.famous-quotes-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+button {
+  cursor: pointer;
+  color: #41e2e2;
+  background-color: #252525;
+  border: 0;
+  border-radius: 5px;
+  padding: .5em 1em;
+  font-weight: bold;
+}
